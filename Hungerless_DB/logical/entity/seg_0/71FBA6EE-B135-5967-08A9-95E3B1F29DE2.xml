@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71FBA6EE-B135-5967-08A9-95E3B1F29DE2" name="TB_HL_CIDADE">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-10 02:09:43 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="31D24E56-9F14-B5EF-FE0E-F06ED4861559" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_CIDADE" id="BE4AFE06-D8B0-FB73-01BB-F974E9543F33">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-10 02:09:57 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="31D24E56-9F14-B5EF-FE0E-F06ED4861559" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_ESTADO" id="1DE4905D-23C6-0DB9-C8D5-E1055DB12034">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-10 02:14:19 UTC</createdTime>
+<generatorID>D73567CF-B03D-58D0-9360-576E330F8FCD</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="31D24E56-9F14-B5EF-FE0E-F06ED4861559" value="true"/>
+</engineerTo>
+<referedAttribute>5148842E-8226-33D1-6445-36FCCFE1D525</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="DBB741C7-2808-0401-C1D0-D2B7751F7962">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-10 02:09:57 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="31D24E56-9F14-B5EF-FE0E-F06ED4861559" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="963F32AC-8311-3B50-F629-7D2E754F9F30" name="TB_HL_CIDADE PK">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-10 02:10:55 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="31D24E56-9F14-B5EF-FE0E-F06ED4861559" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE4AFE06-D8B0-FB73-01BB-F974E9543F33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

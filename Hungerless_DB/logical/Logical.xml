@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="60C9167F-0F59-4A5B-38F4-E624A12DEE76" mainViewID="66177FFF-B664-3CD1-718D-E1B80E6F8BBD">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-09 01:34:54 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

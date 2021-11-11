@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Hungerless_DB" id="00ACC039-E20A-B635-82AA-B0A60D05BF6D" version="3.5">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-09 01:34:54 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>00ACC039-E20A-B635-82AA-B0A60D05BF6D</designId>
+</OSDM_Design>

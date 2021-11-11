@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="075F1808-8F97-FEEA-C005-6D20E8BA6DA5">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-09 17:56:44 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="31D24E56-9F14-B5EF-FE0E-F06ED4861559" value="true"/>
+</engineerTo>
+<sourcePk>02C774D7-0363-57A1-899A-F100A86692B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3FBA57D1-24C5-38C0-823D-EA19D3194696</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5909D828-35C5-3799-13E6-49E41C87AB79</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
