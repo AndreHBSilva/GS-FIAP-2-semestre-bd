@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F7BD3E8-470D-24BE-11F9-60014EC70405" name="TB_HL_USUARIO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:03 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_USUARIO" id="A501DDA5-982D-D504-FDDE-0CB340EEC569">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:12 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="C29F5766-51DE-BE27-88FC-EE22FD7EF307">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:13 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF_CNPJ" id="0F82DCE1-5176-FDB1-B7B1-5FF6C821AF42">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:14 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EMAIL" id="49BCA761-45E8-ED58-83A5-039DEB8527F1">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:14 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SENHA" id="3B61BD4C-40D3-E642-CC36-0DA89B79C17D">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:15 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_TIPO_USUARIO" id="BB72B3EC-96DA-8C00-43F2-D7204C2A86B7">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:11:42 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="5CB140B7-A550-2D59-34CB-C8C55B7638E7">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:16:04 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67D47913-661E-3386-F6B9-397EA3FD74D2" name="TB_HL_USUARIO PK">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-12 00:10:43 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A501DDA5-982D-D504-FDDE-0CB340EEC569</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
