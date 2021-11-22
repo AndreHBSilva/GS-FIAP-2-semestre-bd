@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB6BCBA1-6D27-4E2A-4FA7-799B0BE4B374" containerWithKeyObject="A089DD42-9A6D-DD28-2AA2-DF5912D6DABD" localFKIndex="00E40D1E-E113-56A1-BFBC-9C1857B14B77" name="FK_USUARIO_DOACAO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>0ACCA376-3419-A5DE-684D-518BC9D9F417</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<referredTableLongName>TB_HL_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D20B7222-7C98-363E-3349-10653ABE5436</referredTableID>
+<keyObject>F3E4146C-A938-F105-5CD2-80CF4FF41156</keyObject>
+<referredKeyID>F3E4146C-A938-F105-5CD2-80CF4FF41156</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

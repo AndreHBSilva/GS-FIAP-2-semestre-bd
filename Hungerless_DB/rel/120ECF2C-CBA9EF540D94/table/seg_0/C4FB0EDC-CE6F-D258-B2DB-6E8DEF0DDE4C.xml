@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4FB0EDC-CE6F-D258-B2DB-6E8DEF0DDE4C" name="TB_HL_ITEM">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>87E85BD7-BA45-C9EB-E2EB-E5BF7FF85FE3</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_ITEM" id="0EE9AADE-5986-3A70-CD85-848DD1626FFD">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>D502D7BD-BA02-7B1D-203F-2F4E69188BCE</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_PEDIDO" id="4400E7DF-E890-5656-ECBB-335B38B39F90">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>9CFBB3B7-7A8B-DCBB-07A3-2AEE7F939622</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2F6C841-BF1F-3AED-A5A3-00BE4F7E8CD6" referredColumn="934E7FF0-E7B6-B966-8E0F-987595ED8864"/>
+</associations>
+</Column>
+<Column name="CD_ALIMENTO" id="B4864D93-ACA0-8A42-AC77-E36B90644655">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>75A909B0-0208-95F9-FCD8-B8799ECBD8B5</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C69C5F25-605B-BB23-4356-5A56CB1BA72F" referredColumn="2656064D-7F2E-4F37-EB3A-2EA4E40BA34D"/>
+</associations>
+</Column>
+<Column name="NR_QUANTIDADE" id="B09987D4-FD2A-AA17-F018-94266BC63DBE">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>C761C8F4-54AD-F9C2-DAEF-C692A2B6F554</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F46CA3A-C1C7-8383-AD56-F1DB571F0FD6" name="PK_HL_ITEM">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>B46A90E9-9364-3A36-8428-B9BCC10494C5</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE9AADE-5986-3A70-CD85-848DD1626FFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E40BBCF-EB08-F582-2312-14EA05D4F955" name="FK_HL_PEDIDO_ITEM">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>9C0241CA-1540-B872-5A46-97256F50DC9F</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4400E7DF-E890-5656-ECBB-335B38B39F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26C903BA-5115-62A8-D282-E37D7AAA282D" name="FK_HL_ALIMENTO_ITEM">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>67F80DC5-2E25-A8B4-5284-ABE607D94D93</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4864D93-ACA0-8A42-AC77-E36B90644655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

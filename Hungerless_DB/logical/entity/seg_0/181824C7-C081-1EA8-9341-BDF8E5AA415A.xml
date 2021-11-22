@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F7CB8C1-F554-80CE-2970-CD3F679C4760" name="TB_HL_DOACAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="181824C7-C081-1EA8-9341-BDF8E5AA415A" name="TB_HL_HISTORICO">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-11 23:16:09 UTC</createdTime>
+<createdTime>2021-11-15 20:04:10 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_DOACAO" id="85D6864A-8FC3-91EB-6A14-0AE64B6ADF8B">
+<Attribute name="CD_HISTORICO" id="8124A5A4-E465-A0DC-5955-E48C9F9D1DB5">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-11 23:16:18 UTC</createdTime>
+<createdTime>2021-11-15 20:08:22 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
@@ -28,39 +28,24 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_USUARIO" id="72BD43A0-3E6E-7B1F-8ECD-AA4BA49C8362">
+<Attribute name="CD_PEDIDO" id="61882F37-F14D-913D-C940-71BCE0D8BE40">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-12 00:12:30 UTC</createdTime>
-<generatorID>0ACCA376-3419-A5DE-684D-518BC9D9F417</generatorID>
+<createdTime>2021-11-15 20:08:16 UTC</createdTime>
+<generatorID>667ED7DD-FB79-FEAB-0DED-66D9EA96039B</generatorID>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
 </engineerTo>
-<referedAttribute>A501DDA5-982D-D504-FDDE-0CB340EEC569</referedAttribute>
+<referedAttribute>8EFDC5D0-7DDE-ACA6-2778-163B37523D99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_ALIMENTO" id="CE1BCC42-7E50-631B-BFCC-57EEA930B044">
+<Attribute name="DT_ENCERRAMENTO_PEDIDO" id="81A56A66-4BDA-B4F5-D5C7-80050CA385FA">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-12 00:00:52 UTC</createdTime>
-<generatorID>06468622-B08C-2059-77B0-699C732F026C</generatorID>
-<ownerDesignName>Hungerless_DB</ownerDesignName>
-<engineerTo>
-<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
-</engineerTo>
-<referedAttribute>B0C249C2-07BB-505D-4BB7-9C77949F1E1D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DT_DOACAO" id="79D55303-EE06-6E08-5D23-0238A43366CC">
-<createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-15 17:38:31 UTC</createdTime>
+<createdTime>2021-11-15 20:14:34 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
@@ -72,17 +57,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2D7FFF27-EC40-FEF3-D04B-88A20BB25FCA" name="PK_HL_DOACAO">
+<identifier id="A755FF2C-6BD6-C854-D95C-C7801659F427" name="TB_HL_HISTORICO PK">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-11 23:58:07 UTC</createdTime>
+<createdTime>2021-11-15 20:08:35 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>85D6864A-8FC3-91EB-6A14-0AE64B6ADF8B</newElementsIDs>
 <usedAttributes>
-<attributeRef>85D6864A-8FC3-91EB-6A14-0AE64B6ADF8B</attributeRef>
+<attributeRef>8124A5A4-E465-A0DC-5955-E48C9F9D1DB5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

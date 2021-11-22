@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="CF66763D-7C7C-10B9-F621-0E453310C5AA">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="667ED7DD-FB79-FEAB-0DED-66D9EA96039B">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-12 00:13:30 UTC</createdTime>
+<createdTime>2021-11-15 20:08:16 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
 </engineerTo>
-<sourcePk>67D47913-661E-3386-F6B9-397EA3FD74D2</sourcePk>
+<sourcePk>1243B58F-8BBA-3641-F025-AB478F0BBC3D</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>3F7BD3E8-470D-24BE-11F9-60014EC70405</sourceEntity>
+<sourceEntity>775D53F7-CE12-165D-5DB0-452D9DB94C91</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>171ABE73-B053-A46C-B9A5-2E1A42828CF4</targetEntity>
+<targetEntity>181824C7-C081-1EA8-9341-BDF8E5AA415A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

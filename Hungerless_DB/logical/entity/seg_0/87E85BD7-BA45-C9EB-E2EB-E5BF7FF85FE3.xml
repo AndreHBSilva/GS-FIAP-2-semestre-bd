@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_ALIMENTO" id="75A909B0-0208-95F9-FCD8-B8799ECBD8B5">
 <createdBy>andre.hugo.b.silva</createdBy>
@@ -56,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_QUANTIDADE" id="C761C8F4-54AD-F9C2-DAEF-C692A2B6F554">
 <createdBy>andre.hugo.b.silva</createdBy>
@@ -73,7 +73,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B46A90E9-9364-3A36-8428-B9BCC10494C5" name="TB_HL_ITEM PK">
+<identifier id="B46A90E9-9364-3A36-8428-B9BCC10494C5" name="PK_HL_ITEM">
 <createdBy>andre.hugo.b.silva</createdBy>
 <createdTime>2021-11-11 23:48:59 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
@@ -81,6 +81,7 @@
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>D502D7BD-BA02-7B1D-203F-2F4E69188BCE</newElementsIDs>
 <usedAttributes>
 <attributeRef>D502D7BD-BA02-7B1D-203F-2F4E69188BCE</attributeRef>
 </usedAttributes>

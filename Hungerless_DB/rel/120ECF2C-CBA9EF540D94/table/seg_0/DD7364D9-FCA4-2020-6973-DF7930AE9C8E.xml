@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD7364D9-FCA4-2020-6973-DF7930AE9C8E" name="TB_HL_PEDIDO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>775D53F7-CE12-165D-5DB0-452D9DB94C91</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_PEDIDO" id="934E7FF0-E7B6-B966-8E0F-987595ED8864">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>8EFDC5D0-7DDE-ACA6-2778-163B37523D99</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_USUARIO" id="6134F196-D655-CA09-B2B1-003AC436B1D1">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 20:20:11 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED608987-3B97-8998-F9A4-1C10CEBA1356" referredColumn="1CABD958-EEDF-0023-B113-CD16EC223025"/>
+</associations>
+</Column>
+<Column name="DS_TOKEN" id="FF344603-EEEA-6617-D2A8-3B61DAD0088E">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>B6946731-B3C6-05DD-BE76-60824FED712F</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PEDIDO" id="0A63FB51-F234-B615-88AC-0AAA187954D1">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>4FD99167-899D-DC33-39EB-6FBBDF1D5A86</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS" id="A8E9CDAF-DBB7-8847-21D4-1A0B090B1B86">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>06AD2D71-850A-8AA8-65E0-A79D32F0D722</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B09CFA9-7E6E-09A0-9FCC-D1A12577CDC5" name="PK_HL_PEDIDO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>1243B58F-8BBA-3641-F025-AB478F0BBC3D</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="934E7FF0-E7B6-B966-8E0F-987595ED8864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DC8884A-5917-F570-7EC7-B7EB733F0DAC" name="UN_HL_TOKEN_PEDIDO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 18:20:52 UTC</createdTime>
+<generatorID>17EC6F1C-5C5A-24F7-CBC1-B9C9F2C2DBA4</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF344603-EEEA-6617-D2A8-3B61DAD0088E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="773A068F-F9FE-3035-C1B5-958F19BC7153" name="FK_HL_USUARIO_PEDIDO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 20:20:11 UTC</createdTime>
+<generatorID>67D47913-661E-3386-F6B9-397EA3FD74D2</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6134F196-D655-CA09-B2B1-003AC436B1D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_HL_STATUS_PEDIDO" directorySegmentName="seg_0" id="98405ADE-F53A-C1E1-48E2-9B8BD8FA260B">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-19 22:06:40 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<rule><![CDATA[DS_STATUS = 'EM ANDAMENTO' OR DS_STATUS = 'CONCLUÍDO' OR DS_STATUS = 'CANCELADO']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

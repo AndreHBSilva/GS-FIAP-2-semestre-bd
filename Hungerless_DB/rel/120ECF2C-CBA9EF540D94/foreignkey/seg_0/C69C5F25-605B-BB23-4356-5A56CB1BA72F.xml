@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C69C5F25-605B-BB23-4356-5A56CB1BA72F" containerWithKeyObject="C4FB0EDC-CE6F-D258-B2DB-6E8DEF0DDE4C" localFKIndex="26C903BA-5115-62A8-D282-E37D7AAA282D" name="FK_HL_ALIMENTO_ITEM">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 17:34:09 UTC</createdTime>
+<generatorID>67F80DC5-2E25-A8B4-5284-ABE607D94D93</generatorID>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<referredTableLongName>TB_HL_ALIMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D51C3A96-667C-27C2-BA1F-9BE462D70AC8</referredTableID>
+<keyObject>9D70A2CF-40CB-9C29-76EF-2C0CF719BE92</keyObject>
+<referredKeyID>9D70A2CF-40CB-9C29-76EF-2C0CF719BE92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_ALIMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

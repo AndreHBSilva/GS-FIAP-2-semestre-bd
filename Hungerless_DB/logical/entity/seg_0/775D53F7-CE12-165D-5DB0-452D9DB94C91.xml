@@ -28,16 +28,19 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_PEDIDO" id="4FD99167-899D-DC33-39EB-6FBBDF1D5A86">
+<Attribute name="CD_USUARIO" id="2D26ABEA-0462-2DEA-D705-0F0EC4FE2D5B">
 <createdBy>andre.hugo.b.silva</createdBy>
-<createdTime>2021-11-11 23:44:40 UTC</createdTime>
+<createdTime>2021-11-15 20:11:32 UTC</createdTime>
+<generatorID>E274D379-50D3-9AAA-60A9-082599D3F9AC</generatorID>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
 <engineerTo>
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
 </engineerTo>
+<referedAttribute>A501DDA5-982D-D504-FDDE-0CB340EEC569</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_TOKEN" id="B6946731-B3C6-05DD-BE76-60824FED712F">
@@ -52,6 +55,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_PEDIDO" id="4FD99167-899D-DC33-39EB-6FBBDF1D5A86">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-11 23:44:40 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_STATUS" id="06AD2D71-850A-8AA8-65E0-A79D32F0D722">
 <createdBy>andre.hugo.b.silva</createdBy>
@@ -68,7 +83,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1243B58F-8BBA-3641-F025-AB478F0BBC3D" name="TB_HL_PEDIDO PK">
+<identifier id="1243B58F-8BBA-3641-F025-AB478F0BBC3D" name="PK_HL_PEDIDO">
 <createdBy>andre.hugo.b.silva</createdBy>
 <createdTime>2021-11-11 23:50:32 UTC</createdTime>
 <ownerDesignName>Hungerless_DB</ownerDesignName>
@@ -76,8 +91,21 @@
 <item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>8EFDC5D0-7DDE-ACA6-2778-163B37523D99</newElementsIDs>
 <usedAttributes>
 <attributeRef>8EFDC5D0-7DDE-ACA6-2778-163B37523D99</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="17EC6F1C-5C5A-24F7-CBC1-B9C9F2C2DBA4" name="UN_HL_TOKEN_PEDIDO">
+<createdBy>andre.hugo.b.silva</createdBy>
+<createdTime>2021-11-15 18:20:20 UTC</createdTime>
+<ownerDesignName>Hungerless_DB</ownerDesignName>
+<engineerTo>
+<item key="120ECF2C-D0BB-A467-04AA-CBA9EF540D94" value="true"/>
+</engineerTo>
+<newElementsIDs>B6946731-B3C6-05DD-BE76-60824FED712F</newElementsIDs>
+<usedAttributes>
+<attributeRef>B6946731-B3C6-05DD-BE76-60824FED712F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
